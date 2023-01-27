@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="171.14549880795187" y="-78.67903101433252">com.devp.designpattern.factory.Shape</node>
+    <node x="-89.67336732103999" y="-139.50069327983013">com.devp.designpattern.factory.ShapeFactory</node>
+    <node x="342.7961663634439" y="-106.5093329172945">com.devp.designpattern.factory.FactoryPatternDemo</node>
+    <node x="-176.73379885590523" y="12.398372489049457">com.devp.designpattern.factory.Circle</node>
+    <node x="171.41931619999204" y="43.410146082482555">com.devp.designpattern.factory.Rectangle</node>
+    <node x="-0.7704892871150193" y="35.0340328117324">com.devp.designpattern.factory.Square</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.devp.designpattern.factory.Circle" target="com.devp.designpattern.factory.Shape" relationship="REALIZATION">
+      <point x="55.49979885590524" y="-3.724890494538613E-4" />
+      <point x="-18.27" y="56.898" />
+      <point x="-18.27" y="9.0" />
+      <point x="226.645" y="9.0" />
+      <point x="-4.988079518568611E-4" y="30.000031014332524" />
+    </edge>
+    <edge source="com.devp.designpattern.factory.Rectangle" target="com.devp.designpattern.factory.Shape" relationship="REALIZATION">
+      <point x="-3.161999920280323E-4" y="-44.50014608248256" />
+      <point x="229.419" y="9.0" />
+      <point x="226.645" y="9.0" />
+      <point x="-4.988079518568611E-4" y="30.000031014332524" />
+    </edge>
+    <edge source="com.devp.designpattern.factory.Square" target="com.devp.designpattern.factory.Shape" relationship="REALIZATION">
+      <point x="4.892871150161682E-4" y="-44.5000328117324" />
+      <point x="54.73" y="9.0" />
+      <point x="226.645" y="9.0" />
+      <point x="-4.988079518568611E-4" y="30.000031014332524" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.2648275862068965" showDependencies="false" x="185.5" y="6.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

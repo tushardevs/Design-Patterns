@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-62.0" y="-15.0">com.devp.designpattern.singleton.SingletonDemo</node>
+    <node x="-76.5" y="137.5">com.devp.designpattern.singleton.SingletonObject</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="14.0" y="133.5" />
+  <SelectedNodes>
+    <node>com.devp.designpattern.singleton.SingletonDemo</node>
+    <node>com.devp.designpattern.singleton.SingletonObject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

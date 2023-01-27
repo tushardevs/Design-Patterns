@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-193.89753320683113" y="366.06546489563567">com.devp.designpattern.abstractFactory.Blue</node>
+    <node x="-197.39753320683113" y="115.62523719165085">com.devp.designpattern.abstractFactory.AbstractFactoryPatternDemo</node>
+    <node x="172.85246679316887" y="46.11574952561669">com.devp.designpattern.abstractFactory.Shape</node>
+    <node x="0.10246679316887253" y="366.06546489563567">com.devp.designpattern.abstractFactory.Green</node>
+    <node x="-197.39753320683113" y="246.06546489563567">com.devp.designpattern.abstractFactory.Color</node>
+    <node x="169.35246679316887" y="181.07874762808348">com.devp.designpattern.abstractFactory.Square</node>
+    <node x="304.06973434535104" y="181.07874762808348">com.devp.designpattern.abstractFactory.Circle</node>
+    <node x="-157.39753320683113" y="23.63282732447817">com.devp.designpattern.abstractFactory.FactoryProducer</node>
+    <node x="-92.89753320683113" y="366.06546489563567">com.devp.designpattern.abstractFactory.Red</node>
+    <node x="148.35246679316887" y="486.06546489563567">com.devp.designpattern.abstractFactory.ShapeFactory</node>
+    <node x="428.7870018975332" y="181.07874762808348">com.devp.designpattern.abstractFactory.Rectangle</node>
+    <node x="310.85246679316884" y="486.06546489563567">com.devp.designpattern.abstractFactory.ColorFactory</node>
+    <node x="142.35246679316887" y="366.06546489563567">com.devp.designpattern.abstractFactory.AbstractFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.devp.designpattern.abstractFactory.Blue" target="com.devp.designpattern.abstractFactory.Color" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.Red" target="com.devp.designpattern.abstractFactory.Color" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="-54.89753320683113" y="346.0" />
+      <point x="-154.89753320683113" y="346.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.ColorFactory" target="com.devp.designpattern.abstractFactory.AbstractFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="377.35246679316884" y="460.0" />
+      <point x="217.35246679316887" y="460.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.Circle" target="com.devp.designpattern.abstractFactory.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="347.06973434535104" y="115.06451612903226" />
+      <point x="217.35246679316887" y="115.06451612903226" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.ShapeFactory" target="com.devp.designpattern.abstractFactory.AbstractFactory" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.Square" target="com.devp.designpattern.abstractFactory.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.Rectangle" target="com.devp.designpattern.abstractFactory.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="485.7870018975332" y="150.77087286527512" />
+      <point x="217.35246679316887" y="150.77087286527512" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.devp.designpattern.abstractFactory.Green" target="com.devp.designpattern.abstractFactory.Color" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="45.10246679316887" y="346.0" />
+      <point x="-154.89753320683113" y="346.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9261862917398945" showDependencies="false" x="248.37499999999997" y="269.99999999999994" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
