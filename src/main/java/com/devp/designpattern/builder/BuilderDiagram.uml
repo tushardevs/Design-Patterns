@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="359.5875931167274" y="194.9305703045807">com.devp.designpattern.builder.BuilderPatternDemo</node>
+    <node x="-38.98871888016092" y="319.27141367958063">com.devp.designpattern.builder.Item</node>
+    <node x="573.6563262814379" y="429.679825789062">com.devp.designpattern.builder.ColdDrink</node>
+    <node x="30.48523853518347" y="677.0648861445039">com.devp.designpattern.builder.VegBurger</node>
+    <node x="178.55290659096391" y="295.4233584826154">com.devp.designpattern.builder.Packing</node>
+    <node x="-90.26333712736462" y="496.606779535089">com.devp.designpattern.builder.Burger</node>
+    <node x="420.5897168373072" y="614.2030968475492">com.devp.designpattern.builder.Pepsi</node>
+    <node x="97.8702834765524" y="93.5164827078564">com.devp.designpattern.builder.MealBuilder</node>
+    <node x="166.5791708072236" y="420.47737877702565">com.devp.designpattern.builder.Bottle</node>
+    <node x="603.7893110102516" y="608.954129325973">com.devp.designpattern.builder.Coke</node>
+    <node x="213.51023971951705" y="612.2893024076421">com.devp.designpattern.builder.ChickenBurger</node>
+    <node x="358.1375022941837" y="396.0845567871592">com.devp.designpattern.builder.Wrapper</node>
+    <node x="362.95299231063785" y="-14.812381087619343">com.devp.designpattern.builder.Meal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.devp.designpattern.builder.Pepsi" target="com.devp.designpattern.builder.ColdDrink" relationship="GENERALIZATION">
+      <point x="2.8316269276729145E-4" y="-58.50009684754923" />
+      <point x="482.09" y="594.0" />
+      <point x="661.156" y="594.0" />
+      <point x="14.999673718562008" y="58.50017421093793" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.Coke" target="com.devp.designpattern.builder.ColdDrink" relationship="GENERALIZATION">
+      <point x="-3.1101025160751306E-4" y="-58.500129325973035" />
+      <point x="665.289" y="594.0" />
+      <point x="661.156" y="594.0" />
+      <point x="14.999673718562008" y="58.50017421093793" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.ChickenBurger" target="com.devp.designpattern.builder.Burger" relationship="GENERALIZATION">
+      <point x="-73.50023971951704" y="-3.024076421525024E-4" />
+      <point x="184.0" y="670.789" />
+      <point x="184.0" y="555.107" />
+      <point x="72.50033712736462" y="2.2046491096716636E-4" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.Burger" target="com.devp.designpattern.builder.Item" relationship="REALIZATION">
+      <point x="72.50033712736462" y="-15.926779535088997" />
+      <point x="409.5" y="539.1800000000001" />
+      <point x="409.5" y="578.0" />
+      <point x="493.638" y="578.0" />
+      <point x="493.638" y="377.271" />
+      <point x="72.49971888016091" y="-4.1367958061755417E-4" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.Bottle" target="com.devp.designpattern.builder.Packing" relationship="REALIZATION">
+      <point x="58.9998291927764" y="-3.787770256735712E-4" />
+      <point x="328.0" y="464.977" />
+      <point x="328.0" y="325.423" />
+      <point x="59.00009340903608" y="-3.5848261541104876E-4" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.Wrapper" target="com.devp.designpattern.builder.Packing" relationship="REALIZATION">
+      <point x="-58.99950229418371" y="4.4321284076431766E-4" />
+      <point x="328.0" y="440.585" />
+      <point x="328.0" y="325.423" />
+      <point x="59.00009340903608" y="-3.5848261541104876E-4" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.ColdDrink" target="com.devp.designpattern.builder.Item" relationship="REALIZATION">
+      <point x="-3.262814379922929E-4" y="58.50017421093793" />
+      <point x="646.156" y="578.0" />
+      <point x="493.638" y="578.0" />
+      <point x="493.638" y="377.271" />
+      <point x="72.49971888016091" y="-4.1367958061755417E-4" />
+    </edge>
+    <edge source="com.devp.designpattern.builder.VegBurger" target="com.devp.designpattern.builder.Burger" relationship="GENERALIZATION">
+      <point x="61.49976146481653" y="1.1385549612441537E-4" />
+      <point x="184.0" y="735.565" />
+      <point x="184.0" y="555.107" />
+      <point x="72.50033712736462" y="2.2046491096716636E-4" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6349397590361445" showDependencies="false" x="327.99999999999983" y="399.99999999999994" />
+  <SelectedNodes>
+    <node>com.devp.designpattern.builder.ColdDrink</node>
+    <node>com.devp.designpattern.builder.Meal</node>
+    <node>com.devp.designpattern.builder.MealBuilder</node>
+    <node>com.devp.designpattern.builder.Packing</node>
+    <node>com.devp.designpattern.builder.VegBurger</node>
+    <node>com.devp.designpattern.builder.Coke</node>
+    <node>com.devp.designpattern.builder.Bottle</node>
+    <node>com.devp.designpattern.builder.Wrapper</node>
+    <node>com.devp.designpattern.builder.Burger</node>
+    <node>com.devp.designpattern.builder.Pepsi</node>
+    <node>com.devp.designpattern.builder.ChickenBurger</node>
+    <node>com.devp.designpattern.builder.BuilderPatternDemo</node>
+    <node>com.devp.designpattern.builder.Item</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
